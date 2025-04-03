@@ -1,0 +1,14 @@
+Flyway Teams Edition 8.0.0 by Redgate
+Database: jdbc:mysql://localhost:3306/subscribers_db (MySQL 8.0)
+----------------------------------------
+Flyway Teams features are enabled by default for the next 28 days. Learn more at https://rd.gt/3A4IWym
+----------------------------------------
+Schema version: 2
+
++-----------+---------+-----------------------+----------+---------------------+----------+----------+
+| Category  | Version | Description           | Type     | Installed On        | State    | Undoable |
++-----------+---------+-----------------------+----------+---------------------+----------+----------+
+|           | 1       | << Flyway Baseline >> | BASELINE | 2025-04-03 15:16:25 | Baseline | No       |
+| Versioned | 2       | add subscription date | SQL      | 2025-04-03 18:32:37 | Future   | No       |
++-----------+---------+-----------------------+----------+---------------------+----------+----------+
+

@@ -1,0 +1,11 @@
+- name: Backup Data and Shutdown MySQL
+  hosts: localhost
+  tasks:
+    - name: Export data before shutdown
+      shell: mysqldump -u root -pAkhil subscribers_db > /tmp/subscribers_backup.sql
+      become: yes
+      
+    - name: Stop MySQL Service
+      service:
+        name: mysql
+        state: stopped
